@@ -191,12 +191,12 @@ html {
     overflow: hidden;
     transition: all 600ms ease-out;
   }
-  .fa-telegram-plane{
+  /*.fa-telegram-plane{
     font-size: x-large;
   }
   .fa-whatsapp{
     font-size: x-large;
-  }
+  }*/
   
   .body-more {
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(238,238,238,1) 100%);
@@ -274,6 +274,13 @@ html {
   .card-list li:first-child {
     margin-left: 0;
   }
-  
-  
+  .fa-location-arrow{
+    color: #caff9f;
+  }
+   #social{
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+
+border-radius: 50%;
+background: transparent;
+   }
   /*Resources*/
