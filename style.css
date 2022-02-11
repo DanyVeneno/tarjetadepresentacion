@@ -36,7 +36,7 @@ html {
   .u-clearfix {
       *zoom: 1;
   }
-  
+
   .container {
     box-shadow: 0 0 50px rgba(0,0,0,.3);
     margin: 10px auto;
@@ -144,6 +144,7 @@ html {
     margin-top: -50px;
     padding: 0 15px 15px;
     position: relative;
+    
   }
   
   .body-image {
@@ -153,7 +154,9 @@ html {
     margin: -90px 0 20px;
     position: relative;
     z-index: 2;
+  
   }
+  
   
   .body-action-button {
     background-color: #383838;
@@ -231,6 +234,7 @@ html {
   .card-heading {
     font-size: 12px;
     text-transform: uppercase;
+    text-align:center;
   }
   
   .card-more {
@@ -279,8 +283,7 @@ html {
   }
    #social{
     box-shadow: 0 0 5px rgba(0, 0, 0, .15);
-
-border-radius: 50%;
-background: transparent;
+    border-radius: 50%;
+    background: transparent;
    }
   /*Resources*/
