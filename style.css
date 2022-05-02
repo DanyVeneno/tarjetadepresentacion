@@ -4,6 +4,7 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    align-text:center;
   }
   
   *, *:before, *:after {
@@ -193,6 +194,7 @@ html {
     max-height: 100px;
     overflow: hidden;
     transition: all 600ms ease-out;
+    text-align: center;
   }
   /*.fa-telegram-plane{
     font-size: x-large;
@@ -235,6 +237,8 @@ html {
     font-size: 12px;
     text-transform: uppercase;
     text-align:center;
+    /*border:1px dashed red;*/
+    margin-left:27px;
   }
   
   .card-more {
@@ -244,9 +248,9 @@ html {
   
   .card-list {
     list-style-type: none;
-    margin: 10px 0 0;
+    margin: 18px 0 10px 10px;
     overflow-x: scroll;
-    padding: 0;
+    padding: 10px;
     white-space: nowrap;
   }
   
