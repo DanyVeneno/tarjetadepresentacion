@@ -235,10 +235,10 @@ html {
   
   .card-heading {
     font-size: 12px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     text-align:center;
     /*border:1px dashed red;*/
-    margin-left:27px;
+    /*margin-left:32px;*/
   }
   
   .card-more {
