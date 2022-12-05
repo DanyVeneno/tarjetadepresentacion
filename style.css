@@ -258,7 +258,9 @@ html {
   /*border:1px dashed red;*/
   /*margin-left:32px;*/
 }
-
+#hello {
+  cursor: pointer;
+}
 .card-more {
   cursor: pointer;
   float: right;
