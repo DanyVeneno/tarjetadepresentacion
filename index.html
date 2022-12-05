@@ -41,8 +41,8 @@
             
             <div class="body">
               <img src="images/me.png" alt="Daniel Vallejo" 
-              class="body-image" width="30%" id="hello"/>
-              <audio id="saludoPresentacion">
+              class="body-image" width="30%" id="hello" onClick="miPresentacion()"/>
+              <audio autoplay loop id="saludoPresentacion">
                 <source src="media/wave.mp3" type="audio/mp3">
               </audio>
               <div class="body-action-button u-flex-center">
@@ -119,26 +119,6 @@
             
           </div>
                  
-        <script>
-          let saludoPresentacion = document.getElementById("saludoPresentacion");
-          let hello = document.getElementById("hello");
-
-          hello.onclick = function(){
-            saludoPresentacion.play();
-
-            if(saludoPresentacion.paused){
-              saludoPresentacion.play();
-            }else{
-              hello.onclick = function(){
-               saludoPresentacion.pause();
-              if(saludoPresentacion.play){
-               saludoPresentacion.pause();
-             
-                }
-              }
-            }
-          }
-
-        </script>
+        <script src="main.js"></script>
     </body>
 </html>
