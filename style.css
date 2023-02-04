@@ -154,6 +154,7 @@ html {
 }
 
 .body-image {
+  border: 4px #efefef solid;
   border-radius: 100%;
   box-shadow: 5px 10px 75px rgba(0, 0, 0, 0.4);
   float: left;
@@ -173,7 +174,12 @@ html {
   top: -97px;
   width: 40px;
 }
-
+#blog {
+  right: 70px;
+  top: -83px;
+  padding: 3px auto;
+  background-color: transparent;
+}
 .body-stats {
   display: inline-block;
   font-size: 11px;
