@@ -313,7 +313,7 @@ html {
 
 .card-list li {
   display: inline;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .card-list li:first-child {
