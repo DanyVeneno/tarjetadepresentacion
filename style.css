@@ -160,14 +160,14 @@ html {
 
 .body {
   background-color: rgba(41, 40, 40, 0.431);
-  color: #d9f8a0;
+  color: #f7fee7;
   margin-top: -50px;
   padding: 0 15px 15px;
   position: relative;
 }
 
 .body-image {
-  border: 4px #c3f805 solid;
+  border: 4px #84cc16 solid;
   border-radius: 100%;
   box-shadow: 5px 10px 75px rgba(0, 0, 0, 0.4);
   float: left;
@@ -261,7 +261,7 @@ html {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   margin-top: 15px;
   padding: 10px;
-  border: #caff9f solid 2px;
+  border: #84cc16 solid 2px;
 }
 #infodata {
   border-radius: 10px;
@@ -320,7 +320,7 @@ html {
   margin-left: 0;
 }
 .fa-location-arrow {
-  color: #caff9f;
+  color: #f7fee7;
 }
 #social {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -335,8 +335,8 @@ html {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
-  color: #efefef;
-  background: linear-gradient(287deg, #c5e88b, #474747);
+  color: #f7fee7;
+  background: linear-gradient(287deg, #84cc16, #474747);
   background-size: 200% 200%;
 
   border-radius: 5px;
@@ -354,8 +354,8 @@ html {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
-  color: #efefef;
-  background: linear-gradient(287deg, #c5e88b, #474747);
+  color: #f7fee7;
+  background: linear-gradient(287deg, #84cc16, #474747);
   background-size: 200% 200%;
   border-radius: 5px;
   -webkit-border-radius: 5px;
