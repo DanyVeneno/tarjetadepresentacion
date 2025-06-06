@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Daniel Vallejo | Yehiibhii Estudio | Tarjeta De Presentaciòn</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel Vallejo | Yehiibhii Estudio | Tarjeta Digital</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="apple-touch-icon"
@@ -29,160 +26,142 @@
     <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link
       rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
   <body>
-    <div class="container">
-      <div class="header-container">
-        <!--<img src="images/background.jpg" width="200%" alt="" class="header-image" />-->
-        <video autoplay muted loop id="move">
-          <source src="media/b.mp4" type="video/mp4" />
-
-          Your browser does not support the video tag.
-        </video>
-
-        <div class="header">
-          <i class="fas fa-bookmark"></i>
-          <i class="fas fa-award u-float-right header-icon"></i>
-          <h1 class="main-heading">Daniel Vallejo</h1>
-          <span class="tag">Director Creativo</span>
-          <span class="tag">Diseñador / WebDev</span>
-          <div class="stats">
-            <span class="stat-module"> Yehiibhii Estudio </span>
+    <div class="card-container">
+      <!-- Header -->
+      <div class="header">
+        <div class="header-content">
+          <div class="header-top">
+            <i class="fas fa-bookmark bookmark-icon"></i>
+            <i class="fas fa-award bookmark-icon"></i>
+          </div>
+          <div>
+            <h1 class="name">Daniel Vallejo</h1>
+            <div class="tags">
+              <span class="tag">Director Creativo</span>
+              <span class="tag">Diseñador / WebDev</span>
+            </div>
+            <div class="studio-badge">Yehiibhii Estudio</div>
           </div>
         </div>
       </div>
 
-      <div class="overlay-header"></div>
-
-      <div class="body">
+      <!-- Profile Section -->
+      <div class="profile-section">
         <img
           src="images/me.png"
           alt="Daniel Vallejo"
-          class="body-image"
-          width="30%"
+          class="profile-image pulse"
           id="hello"
           onClick="miPresentacion()"
         />
-        <audio autoplay loop id="saludoPresentacion">
+
+        <audio id="saludoPresentacion" autoplay loop>
           <source src="media/welcome3.wav" type="audio/mp3" />
         </audio>
-        <div class="body-action-button u-flex-center">
-          <a href="https://t.me/Dannyveneno" target="_blank">
-            <i class="fas fa-location-arrow"></i
-          ></a>
-        </div>
-        <div class="body-action-button u-flex-center" id="blog">
-          <a href="https://ybestudio.website/" target="_blank">
-            <img src="images/blog.png" alt="logoblog" width="100%"
-          /></a>
-        </div>
-        <span class="body-stats">
-          <span>
-            Di Hola ,<br />
-            ¡Escribenos un Mensaje!
-          </span>
-        </span>
-
-        <div class="u-clearfix"></div>
-        <div class="body-info">
-          <p>
-            Desarrollamos estrategias con herramientas web para<br />
-            promover tus productos y/o servicios. <br /><strong
-              >Atrévete al cambio</strong
-            >
-          </p>
+        <div class="action-buttons">
+          <button
+            class="action-btn"
+            onclick="window.open('https://ybestudio.website/', '_blank'
+            )"
+          >
+            <i class="fa-solid fa-rss"></i>
+          </button>
+          <button
+            class="action-btn"
+            onclick="window.open('https://t.me/Dannyveneno', '_blank')"
+          >
+            <i class="fa-brands fa-telegram"></i>
+          </button>
         </div>
 
-        <div class="card u-clearfix" id="infodata">
-          <span class="card-heading">
-            <h4>Escribenos un correo:</h4>
-            <h4>holadhan@proton.me</h4>
-            <h4>Visita Nuestro Sitio Web:</h4>
-
-            <h4 class="website" id="websiteback">
-              <a
-                href="https://yehiibhiiestudio.tech"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Yehiibhii Estudio</a
-              >
-            </h4>
-            <br />
-            <h4 class="website2" id="websiteback">
-              <a
-                href="https://wa.me/5610731990?text=Hola%20me%20interesan%20tus%20servicios%20de%20desarrollo%20web"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                WhatsApp
-              </a>
-            </h4>
-            <br />
-
-            <strong> <h4>Transformaté a lo digital</h4></strong>
-          </span>
-
-          <ul class="card-list">
-            <li>
-              <a
-                href="https://www.instagram.com/juanitovenenoestudio/"
-                target="_blank"
-                ><img id="social" src="images/instagram.png" alt="" width="10%"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/c/DanielVallejojveneno"
-                target="_blank"
-                ><img id="social" src="images/youtube.png" alt="" width="10%"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/juanitovenenoestudiodigital"
-                target="_blank"
-                ><img id="social" src="images/facebook.png" alt="" width="10%"
-              /></a>
-            </li>
-            <!-- <li>
-              <a href="https://www.twitch.tv/yehiibhii" target="_blank"
-                ><img id="social" src="images/twitch.png" alt="" width="8%"
-              /></a>
-            </li> -->
-            <li>
-              <a
-                href="https://open.spotify.com/show/02JMGEAGGkQVFqkngYb4gE?si=0acdb63fca8b4cb7"
-                target="_blank"
-                ><img id="social" src="images/spotify.png" alt="" width="10%"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.behance.net/danielvallejo23" target="_blank"
-                ><img id="social" src="images/behance.png" alt="" width="10%"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/danielvallejoch/"
-                target="_blank"
-                ><img id="social" src="images/linkedin.png" alt="" width="10%"
-              /></a>
-            </li>
-
-            <!-- <li>
-              <a href="https://github.com/DanyVeneno" target="_blank"
-                ><img id="social" src="images/GitHub.png" width="8.5%"
-              /></a>
-            </li> -->
-          </ul>
+        <div class="profile-info">
+          <div class="greeting">¡Di Hola, Escríbenos un Mensaje!</div>
+          <div class="description">
+            Desarrollamos estrategias con herramientas web para promover tus
+            productos y/o servicios.
+            <strong>Atrévete al cambio</strong>
+          </div>
         </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="contact-section">
+        <div class="contact-title">Información de Contacto</div>
+
+        <div class="contact-item">
+          <!-- <i class="fas fa-envelope"></i> -->
+          <span style="text-align: center">holadhan@proton.me</span>
+        </div>
+
+        <div class="cta-buttons">
+          <a
+            href="https://yehiibhiiestudio.tech"
+            target="_blank"
+            class="cta-btn"
+          >
+            <i class="fas fa-globe"></i> Visitar Sitio Web
+          </a>
+          <a
+            href="https://wa.me/5610731990?text=Hola%20me%20interesan%20tus%20servicios%20de%20desarrollo%20web"
+            target="_blank"
+            class="cta-btn secondary"
+          >
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/juanitovenenoestudio/"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/c/DanielVallejojveneno"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/juanitovenenoestudiodigital"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a
+            href="https://open.spotify.com/show/02JMGEAGGkQVFqkngYb4gE?si=0acdb63fca8b4cb7"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-spotify"></i>
+          </a>
+          <a
+            href="https://www.behance.net/danielvallejo23"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-behance"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/danielvallejoch/"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="footer-text">Transformáte a lo Digital</div>
       </div>
     </div>
 
