@@ -30,7 +30,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"262fb6e62eb65fd1162b830019e3a19f"})});</script>
+    <script>
+      function loadScript(a) {
+        var b = document.getElementsByTagName("head")[0],
+          c = document.createElement("script");
+        (c.type = "text/javascript"),
+          (c.src = "https://tracker.metricool.com/resources/be.js"),
+          (c.onreadystatechange = a),
+          (c.onload = a),
+          b.appendChild(c);
+      }
+      loadScript(function () {
+        beTracker.t({ hash: "262fb6e62eb65fd1162b830019e3a19f" });
+      });
+    </script>
   </head>
   <body>
     <div class="card-container">
@@ -68,8 +81,7 @@
         <div class="action-buttons">
           <button
             class="action-btn"
-            onclick="window.open('https://ybestudio.website/', '_blank'
-            )"
+            onclick="window.open('https://ybestudio.blog', '_blank')"
           >
             <i class="fa-solid fa-rss"></i>
           </button>
